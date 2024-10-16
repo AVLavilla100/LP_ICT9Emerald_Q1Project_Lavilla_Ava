@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gummy Eggs | Gyummiees</title>
+
+    <style>
+
+    body {
+        background-color: #d4ffe8;
+    }
+    
+    .container {
+        width: 1000px;
+        height: 550px;
+        background-color: white;
+        margin-left: auto; margin-right: auto; margin-top: 25px; margin-bottom: 25px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 500px 510px;
+    }
+
+    .item {
+    background-color: white;
+    height: 340px;
+    width: 500px;
+    border-radius: 10px;
+    align-content: center;
+    
+    }
+
+    h1 {
+        margin-top: 5px;
+        font-size: 27px;
+        margin-bottom: 0%;
+    }
+
+    .description {
+        width: 500px;
+    }
+
+    p {
+        text-align: justify;
+        margin-bottom: 0%;
+        margin-top: 4px;
+    }
+
+    .detail-form {
+        background-color: transparent;
+        width: 496px; height: 545px;
+        margin-left: 5px;
+        padding-left: 35px;
+       
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 30px;
+        margin-bottom: 8px;
+        border-radius: 15px;
+        border-color: black;
+        border-style: solid;
+    }
+
+    button {
+        font-size: 16px;
+    border-style: solid;
+    border-radius: 15px;
+    
+    color: black;
+    background-color: transparent;
+    padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px;
+    width: 150px;
+    }
+    
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="column">
+            <div class="item" style="background-image: url('gummyegg.jpg'); 
+                background-size: cover;">
+            </div>
+
+            <h1>Gummy Eggs</h1>
+            <div class="description">
+                <p>Gummy eggs are soft, chewy candies shaped like sunny-side-up fried eggs. 
+                    They typically have a white, gummy base with a yellow "yolk" in the center, made from fruit-flavored gelatin. 
+                    While they resemble real fried eggs in appearance, they taste sweet, with fruity or citrus flavors. 
+                    Gummy eggs are a popular novelty candy, often included in mixed candy assortments or themed confectionery sets. 
+                    Their playful design and chewy texture make them a fun treat for candy lovers of all ages.</p>
+                <p style="margin-bottom: 3px; font-size: 14px; font-style: italic; margin-top: 3px;">-ChatGPT (2024, September 21)</p>
+                
+                <button><a href="LP_ICT9Emerald_Q1Project_Lavilla_Ava.html">Homepage</a></button>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="detail-form">
+
+                <h1>Details:</h1>
+                
+                <ul>
+                    <li><strong>ONE BAG, 100 GRAMS = $65</strong></li>
+                    <li><strong>ONE BAG, 500 GRAMS = $48</strong></li>
+                    <li><strong>ONE BAG, 1000 GRAMS = $14</strong></li>
+                </ul>
+                <p style="margin-bottom: 3px; font-size: 14px; font-style: italic;">one bag can accommodate 1000g at max </p>
+
+                <h1>Form:</h1>
+                <form>
+                    <label for="kilograms">No. of Grams (follow fixed grams provided)</label><br>
+                    <input type="number" id="kilograms" name="kilograms" required><br>
+                    <label for="bags">No. of Bag/s</label><br>
+                    <input type="number" id="bags" name="bags" required><br>
+
+                    
+                    
+                    <label for="premade" style="font-size: 26px; margin-left: 15px;">Premade</label>
+                    <input type="radio" id="premade" name="gender" required>
+
+                    <label for="preorder" style="font-size: 26px; margin-left: 15px;">Preorder</label>
+                    <input type="radio" id="preorder" name="gender" required>
+                    
+                    <br>
+                    <br>
+                    <br>
+
+                    <button type="submit">Place Order Now</button>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

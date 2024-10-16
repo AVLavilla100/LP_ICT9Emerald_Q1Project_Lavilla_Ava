@@ -1,0 +1,166 @@
+.grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#column1 {
+    background-color: #d4ffe8;
+    height: 625px;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#column2 {
+    background-image: url('gummybanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+.item {
+    background-color: #ffd2e2;
+    width: 75%; height: 420%;
+   margin-left: 58px;
+   margin-bottom: 20px;
+    
+   
+}
+
+.item2 {
+    background-color: #b2edff;
+    width: 75%; height: 420%;
+   margin-left: 58px;
+   margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+#shop-name {
+    font-size: 98px;
+    margin-top: 0%;
+    margin-left: 15px;
+    margin-bottom: 0%;
+}
+.row {
+    display: grid;
+    /* height: 400px; */
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.column {
+    background-color: white;
+    float: left;
+    /* width: 30%; */
+    /* padding: 10px; */
+    margin: 65px;
+    height: 215px;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 36px; padding-right: 36px; padding-bottom: 25px; padding-top: 36px;
+    border: 2px solid #171717;
+
+}
+
+.container {
+    background-color: white;
+    height: 157px;
+    border-radius: 10px;
+    align-content: center;
+    
+}
+
+p {
+    font-size: 45px;
+    margin-left: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#desc {
+    font-size: 33px;
+    margin-left: 15px;
+    margin-top: 0%;
+    margin-bottom: 100px;
+}
+
+#desc1 {
+    font-size: 25px;
+}
+
+#dyk {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 28px;
+}
+
+h1 {
+    margin-left: 83px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-left: 83px;
+    margin-top: 0%;
+    font-size: 29px;
+    margin-bottom: 0%;
+}
+
+.pro-name {
+    font-size: 20px;
+    margin-top: 4px; margin-left: 0%; margin-bottom: 5px;
+}
+
+.bestseller {
+    font-size: 16px;
+    margin: 0%;
+    margin-top: 3px;
+}
+
+.buttons {
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.buttons button {
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px;
+    background-color: white;
+    border-color: white; 
+    color: white;
+    border-style: solid;
+    box-shadow: 4px 3px 5px -1px rgba(128,128,128,0.65);
+-webkit-box-shadow: 4px 3px 5px -1px rgba(128,128,128,0.65);
+-moz-box-shadow: 4px 3px 5px -1px rgba(128,128,128,0.65);
+}
+
+#view {
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 15px;
+    
+    color: black;
+    background-color: transparent;
+    padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px;
+    width: 150px;
+}
+

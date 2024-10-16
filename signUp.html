@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up to Gyummiees</title>
+
+    <style>
+
+        .column {
+            background-image: url('gummybg-removebg-preview.png');
+            background-size: cover;
+            margin: auto;
+            width: 498px;
+            height: 585px;
+            padding-top: 50px;
+        }
+
+        .container {
+            background-color: transparent;
+            border-style: solid;
+            border: black;
+            width: 367px;
+            height: 500px;
+            margin: auto; 
+            
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+
+        .form {
+            padding-left: 10px;
+            margin-top: 158px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            font-size: 27px;
+            border-radius: 15px;
+            border-style: solid;
+            border-color: #891010;
+            
+        }
+
+        label {
+            font-size: 18px;
+            margin-left: 13px;
+        }
+
+        
+
+        button {
+            font-size: 16px;
+        border-style: solid;
+        border-radius: 15px;
+        border-color: white;
+    
+        color: white;
+        background-color: transparent;
+
+        padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px;
+        width: 150px;
+
+        margin-left: 100px;
+        }
+
+        select {
+            border-radius: 15px;
+            border-color: #891010;
+            padding-left: 4px; padding-right: 4px;
+            font-size: 15px;
+        }
+
+
+
+       
+    
+    </style>
+
+</head>
+<body>
+
+    <div class="column">
+        
+        <div class="container">
+
+            <h1>WELCOME TO GYUMMIEES!</h1>
+            
+                <div class="form">
+                    <form>
+                        <label for="usernme">Username</label><br>
+                        <input type="text" id="username" name="username" required><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" required><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password" required>
+                        <label for="address">Address (HOUSE NO. ST. CIT)</label><br>
+                        <input type="password" id="address" name="address" required>
+                        <br>
+                        
+                        <label for="select" style="margin-left: 35px;">Select Form of Payment</label>
+                        <select id="select" name="select" required>
+                            <option>Select</option>
+                            <option>PayMaya</option>
+                            <option>GCash</option>
+                            <option>PayPal</option>
+                            <option>Apple Pay</option>
+                            <option>Venmo</option>
+                            <option>Credit Card</option>
+                            <option>Debit Card</option>
+
+                        </select>
+
+                        <br>
+                        <br>
+
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+
+                
+              
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
